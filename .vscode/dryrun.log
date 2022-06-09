@@ -1,0 +1,5 @@
+make LibTest --dry-run --keep-going --print-directory
+make: Entering directory `/Users/ilianstoev/University/uni2022sem3/delivery_Ass4'
+g++ -Wall  -Wextra -pedantic -Wno-unused-parameter  -ggdb -std=c++11 -O0 -Iproduct -Itest product/queue.cpp product/stack.cpp test/q_test.cpp -o LibTest -lgtest -lgmock -lgmock_main -lpthread
+make: Leaving directory `/Users/ilianstoev/University/uni2022sem3/delivery_Ass4'
+ 

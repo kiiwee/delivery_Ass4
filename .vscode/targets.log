@@ -1,0 +1,360 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Wed Jun  8 18:45:37 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `Makefile', line 3)
+CPPFLAGS = -Iproduct -Itest
+# environment
+PLATFORMIO_IDE = 2.4.3
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/ilianstoev/University/uni2022sem3/delivery_Ass4
+# makefile
+SHELL = /bin/sh
+# environment
+ 
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from `Makefile', line 6)
+SOURCES = $(wildcard product/*.cpp) $(wildcard test/*.cpp)
+# makefile (from `Makefile', line 4)
+CXXFLAGS = -Wall  -Wextra -pedantic -Wno-unused-parameter  -ggdb -std=c++11 -O0 $(CPPFLAGS)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/3n/24f_z_0s6t3406d4s3bfd5qr0000gn/T/vscode-ipc-0bf9d3b5-8333-4ba6-8554-98c1db644d2b.sock
+# environment
+VSCODE_CWD = /
+# environment
+NO_PROXY = 127.0.0.1
+# environment
+LaunchInstanceID = FC5A1808-0DA6-4C15-BC2F-6B518BA3E80C
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `Makefile', line 13)
+LDFLAGS = -lgtest -lgmock -lgmock_main -lpthread
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.odDJ1th9pv/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+CONDA_EXE = /Users/ilianstoev/miniforge3/bin/conda
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/ilianstoev/University/uni2022sem3/delivery_Ass4
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from `Makefile', line 1)
+PRODUCT = LibTest
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/ilianstoev
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/ilianstoev/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = ilianstoev
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from `Makefile', line 9)
+HEADERS = $(wildcard product/*.h) $(wildcard test/*.h)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+PLATFORMIO_PATH = /Users/ilianstoev/.platformio/penv/bin:/Users/ilianstoev/.platformio/penv:/Users/ilianstoev/.platformio/python3/bin:/Users/ilianstoev/miniforge3/condabin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = /Users/ilianstoev/miniforge3/condabin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin
+# environment
+SHLVL = 1
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = ilianstoev
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+CONDA_SHLVL = 0
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/3n/24f_z_0s6t3406d4s3bfd5qr0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/ilianstoev/Library/Application Support/Code/1.67.2-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.28901037.28901043
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x2
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# makefile (from `Makefile', line 11)
+LD_DEBUG = all make
+# makefile (from `Makefile', line 15)
+CXX = g++
+# environment
+LC_ALL = C
+# environment
+CONDA_PYTHON_EXE = /Users/ilianstoev/miniforge3/bin/python
+# environment
+SECURITYSESSIONID = 186ad
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+_CE_M = 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 2373
+# environment
+_CE_CONDA = 
+# variable set hash-table stats:
+# Load=81/1024=8%, Rehash=0, Collisions=3/117=3%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777233, inode 29341300): 8 files, no impossibilities.
+# test (device 16777233, inode 29341307): 3 files, no impossibilities.
+# product (device 16777233, inode 29341310): 6 files, no impossibilities.
+
+# 17 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: LibTest
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+
+.PHONY: all clean test
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+LibTest: product/queue.cpp product/stack.cpp test/q_test.cpp product/queue.h product/stack.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := LibTest
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := product/queue.cpp product/stack.cpp test/q_test.cpp product/queue.h product/stack.h
+# automatic
+# | := 
+# automatic
+# < := product/queue.cpp
+# automatic
+# ^ := product/queue.cpp product/stack.cpp test/q_test.cpp product/queue.h product/stack.h
+# automatic
+# ? := product/queue.cpp product/stack.cpp test/q_test.cpp product/queue.h product/stack.h
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=3/16=19%
+#  commands to execute (from `Makefile', line 22):
+	@$(CXX) $(CXXFLAGS) $(SOURCES) -o $@ $(LDFLAGS)
+	
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 18:39:23
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+test: LibTest
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 36):
+	@./$(PRODUCT)
+	
+
+# Not a target:
+product/queue.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-29 15:12:47
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+product/stack.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-07 14:48:55
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+product/queue.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 18:24:48
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+klocwork_after_makefile_change: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 32):
+	@/opt/klocwork/kwenv.sh
+	@kwcheck run
+	
+
+# Not a target:
+product/stack.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 18:22:05
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/q_test.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 18:25:25
+#  File has been updated.
+#  Successfully updated.
+ 
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 25):
+	@rm -rf $(PRODUCT)
+	@rm -rf kwinject.out .kwlp .kwps
+	
+
+klocwork:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 29):
+	@kwcheck run
+	
+
+# files hash-table stats:
+# Load=15/1024=1%, Rehash=0, Collisions=0/40=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Wed Jun  8 18:45:37 2022
+
+ 
